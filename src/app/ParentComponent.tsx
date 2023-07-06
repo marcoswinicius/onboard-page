@@ -43,13 +43,13 @@ const ParentComponent = () => {
   };
 
   return (
-    <div>
+    <div className="p">
         <div>{handleForm()}</div>
         <div>
-            <button onClick={handlePrev}>Prev</button>           
+            <button className="btn" onClick={handlePrev}>Prev</button>           
         </div>
         <div>
-            <button onClick={handleNext}>Next</button>
+            <button className="btn" onClick={handleNext}>Next</button>
         </div>
     </div>
   )
